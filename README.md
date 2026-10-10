@@ -14,3 +14,20 @@ From today onwards, let's learn, code, and grow together! 🤝
 📌 I'll be sharing my daily coding progress and solutions here on GitHub.
 
 #CodeChef #100DaysOfCode #CodingJourney #ProblemSolving #Java #Python #GitHub #Consistency #Day1
+
+
+
+
+🔥 Day 2 of my CodeChef journey! 💻
+
+One problem at a time, one step closer to becoming better at coding. 🚀✨
+
+Consistency today, success tomorrow! 💪
+
+Who’s joining me on this coding journey? 👩‍💻❤️
+
+#Day2 #CodeChef #Python #CodingJourney #Consistency #LearningByDoing
+
+
+
+
