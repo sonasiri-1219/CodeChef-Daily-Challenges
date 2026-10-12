@@ -63,3 +63,38 @@ for i in range(t):
 **Consistency beats perfection. One problem at a time! 💻🔥**
 
 #CodeChef #Python #CodingJourney
+
+
+ Day 4 – Monopoly
+
+Problem: Determine whether any one of the four companies has a profit greater than the combined profit of the other three companies.
+
+💻 Python Solution
+
+t = int(input())
+
+for i in range(t):
+    a, b, c, d = map(int, input().split())
+
+    if a > b + c + d or b > a + c + d or c > a + b + d or d > a + b + c:
+        print("YES")
+    else:
+        print("NO")
+
+📚 Concepts Practiced
+
+Conditional statements (if-else)
+
+Logical operators (or)
+
+Arithmetic operations
+
+Comparison operators
+
+🎯 Learning Outcome
+
+Practiced comparing values and using logical conditions to solve a problem efficiently.
+
+Day 4 completed! 🚀 One problem at a time, one step closer to my coding goals.
+
+#CodeChef #Python #CodingJourney #ProblemSolving
