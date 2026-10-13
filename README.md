@@ -50,24 +50,11 @@ for i in range(t):
         print("CAR")
     else:
         print("SAME")
-```
 
----
-
-## 🎯 My Goals
-- Practice coding every day.
-- Improve Python and logical thinking.
-- Build problem-solving skills.
-- Prepare for coding interviews.
-
-**Consistency beats perfection. One problem at a time! 💻🔥**
-
-#CodeChef #Python #CodingJourney
 
 
  Day 4 – Monopoly
 
-Problem: Determine whether any one of the four companies has a profit greater than the combined profit of the other three companies.
 
 💻 Python Solution
 
@@ -81,20 +68,23 @@ for i in range(t):
     else:
         print("NO")
 
-📚 Concepts Practiced
+## 🟢 Day 5 – Count Values Greater Than or Equal to 1000
 
-Conditional statements (if-else)
+**Problem:** Given `N` numbers, count how many numbers are greater than or equal to `1000`.
 
-Logical operators (or)
+### 💻 Python Solution
 
-Arithmetic operations
+```python
+t = int(input())
 
-Comparison operators
+for i in range(t):
+    n = int(input())
+    d = list(map(int, input().split()))
 
-🎯 Learning Outcome
+    c = 0
+    for i in range(n):
+        if d[i] >= 1000:
+            c += 1
 
-Practiced comparing values and using logical conditions to solve a problem efficiently.
-
-Day 4 completed! 🚀 One problem at a time, one step closer to my coding goals.
-
-#CodeChef #Python #CodingJourney #ProblemSolving
+    print(c)
+```
