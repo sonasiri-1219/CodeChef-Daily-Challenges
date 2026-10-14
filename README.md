@@ -88,3 +88,15 @@ for i in range(t):
 
     print(c)
 ```
+
+**
+DAY-6
+t = int(input())
+
+for i in range(t):
+    x = int(input())
+
+    if x <= 50:
+        print("LEFT")
+    else:
+        print("RIGHT")**
