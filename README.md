@@ -100,3 +100,20 @@ for i in range(t):
         print("LEFT")
     else:
         print("RIGHT")**
+
+
+
+day-7:
+# cook your dish here
+t = int(input())
+
+for i in range(t):
+    a, b = map(int, input().split())
+
+    if (2 * a) > b:
+        print("FIRST")
+    elif (2 * a) < b:
+        print("SECOND")
+    else:
+        print("ANY")
+        
