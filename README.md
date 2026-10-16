@@ -116,4 +116,15 @@ for i in range(t):
         print("SECOND")
     else:
         print("ANY")
-        
+
+day-8:
+#Good or Not Good
+t = int(input())
+
+for i in range(t):
+    n = int(input())
+
+    if n % 4 == 0:
+        print("Good")
+    else:
+        print("Not Good")
