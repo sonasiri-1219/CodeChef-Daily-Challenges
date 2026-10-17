@@ -128,3 +128,22 @@ for i in range(t):
         print("Good")
     else:
         print("Not Good")
+
+
+Day 9 – Qualify or Not Qualify
+
+Problem: Given the qualifying score X and the values A and B, calculate the total score using A × 1 + B × 2. If the total score is greater than or equal to X, print Qualify; otherwise, print NotQualify.
+
+💻 Python Solution
+
+t = int(input())
+
+for i in range(t):
+    x, a, b = map(int, input().split())
+
+    c = a * 1 + b * 2
+
+    if c >= x:
+        print("Qualify")
+    else:
+        print("NotQualify")
