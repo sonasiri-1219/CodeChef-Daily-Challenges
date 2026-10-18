@@ -147,3 +147,20 @@ for i in range(t):
         print("Qualify")
     else:
         print("NotQualify")
+
+
+Day 10 – Count Eligible People
+
+# cook your dish here
+t = int(input())
+
+for i in range(t):
+    count = 0
+    n, x = map(int, input().split())
+    age = list(map(int, input().split()))
+
+    for a in age:
+        if a >= x:
+            count += 1
+
+    print(count)
