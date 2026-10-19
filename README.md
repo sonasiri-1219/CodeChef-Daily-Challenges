@@ -164,3 +164,20 @@ for i in range(t):
             count += 1
 
     print(count)
+
+
+    Day 11 – Chef and Candies
+
+    # cook your dish here
+t = int(input())
+
+for i in range(t):
+    n = int(input())
+    d = int(n / 4)
+
+    if n % 4 == 0:
+        print(d)
+    elif n < 4:
+        print(1)
+    elif n > 4 or n % 4 != 0:
+        print(d + 1)
