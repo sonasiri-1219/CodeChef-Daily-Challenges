@@ -181,3 +181,20 @@ for i in range(t):
         print(1)
     elif n > 4 or n % 4 != 0:
         print(d + 1)
+
+
+ Day 12 :
+
+**Problem: Check Whether Y Is a Multiple of X Within N**
+
+📝 **Approach:**
+- Read the number of test cases.
+- Take `N`, `X`, and `Y` as input.
+- Use a `while` loop to check whether `X * i == Y` for any `i` from `1` to `N`.
+- Print `YES` if a match is found; otherwise, print `NO`.
+
+💻 **Concepts Used:** Python, Loops, Conditional Statements, Basic Logic
+
+🎯 **Learning Outcome:** Practiced using loops and conditions to solve mathematical problems efficiently.
+
+#Python #CodeChef #ProblemSolving #100DaysOfCode
