@@ -198,3 +198,24 @@ for i in range(t):
 🎯 **Learning Outcome:** Practiced using loops and conditions to solve mathematical problems efficiently.
 
 #Python #CodeChef #ProblemSolving #100DaysOfCode
+
+day-13:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Check Divisibility and Conditions**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `n` and `x`.
+- Check whether `n <= x` and `x % n == 0`.
+- If both conditions are true, print `YES`; otherwise, print `NO`.
+
+💻 **Python Concepts Used:**
+- `for` loop
+- `if-else` statements
+- Modulus operator (`%`)
+- Logical operators (`and`)
+
+🎯 **Learning Outcome:** Practiced conditional statements and divisibility checks using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
