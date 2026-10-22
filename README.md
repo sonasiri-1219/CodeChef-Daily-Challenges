@@ -219,3 +219,26 @@ day-13:
 🎯 **Learning Outcome:** Practiced conditional statements and divisibility checks using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+
+
+day-14:
+
+### 🚀 Python Coding Practice – Find the Maximum
+
+**Problem:** Find the Largest Among Three Numbers
+
+📝 **Approach:**
+- Read the number of test cases `n`.
+- For each test case, take three integers `a`, `b`, and `c`.
+- Use Python's built-in `max()` function to find the largest number.
+- Print the maximum value.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Built-in `max()` function
+
+🎯 **Learning Outcome:** Practiced handling multiple test cases and finding the largest value using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
