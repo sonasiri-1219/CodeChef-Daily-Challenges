@@ -242,3 +242,26 @@ day-14:
 🎯 **Learning Outcome:** Practiced handling multiple test cases and finding the largest value using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+
+DAY-15:
+### 🚀 Python Coding Practice – Sum of Maximum Values
+
+**Problem:** Find the Maximum of Two Pairs and Calculate Their Sum
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- Take four integers `a`, `b`, `c`, and `d` for each test case.
+- Find the maximum of the first pair using `max(a, b)`.
+- Find the maximum of the second pair using `max(c, d)`.
+- Add both maximum values and print the result.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Built-in `max()` function
+- Arithmetic operations
+
+🎯 **Learning Outcome:** Practiced finding maximum values from two pairs and combining them using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
