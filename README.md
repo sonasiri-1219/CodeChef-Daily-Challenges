@@ -265,3 +265,29 @@ DAY-15:
 🎯 **Learning Outcome:** Practiced finding maximum values from two pairs and combining them using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+
+DAY-16:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate the Total**
+
+📝 **Approach:**
+- Read two integers `x` and `y`.
+- Calculate half of `y` using integer division (`y // 2`).
+- Calculate the remaining value by subtracting `y` from `x`.
+- Add both results and print the total.
+
+💻 **Concepts Used:**
+- User input
+- Integer division (`//`)
+- Arithmetic operations
+- Variables and calculations
+
+🎯 **Learning Outcome:** Practiced integer division and basic arithmetic operations using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+
+
