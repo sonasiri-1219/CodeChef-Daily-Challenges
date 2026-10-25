@@ -291,3 +291,23 @@ DAY-16:
 
 
 
+DAY-17:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Conditional Calculation Using N and M**
+
+📝 **Approach:**
+- Read the number of test cases `T`.
+- For each test case, take two integers `N` and `M`.
+- If `M >= N`, print `N`.
+- Otherwise, print `2 * N - M`.
+
+💻 **Concepts Used:**
+- `for` loop
+- `if-else` statements
+- Comparison operators (`>=`)
+- Arithmetic operations
+
+🎯 **Learning Outcome:** Practiced conditional logic and arithmetic calculations to solve programming problems efficiently.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
