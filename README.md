@@ -311,3 +311,30 @@ DAY-17:
 🎯 **Learning Outcome:** Practiced conditional logic and arithmetic calculations to solve programming problems efficiently.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+DAY-18
+
+### 🚀 Python Coding Practice – Factorial Using Recursion
+
+**Problem:** Calculate the Factorial of a Number
+
+📝 **Approach:**
+- Define a function `fact(n)` to calculate the factorial.
+- Use the base case: if `n == 0` or `n == 1`, return `1`.
+- Otherwise, calculate `n * fact(n-1)` using recursion.
+- Read multiple test cases and print the factorial of each number.
+
+💻 **Concepts Used:**
+- Functions
+- Recursion
+- Base cases
+- Conditional statements
+- Loops
+
+**Example:**
+- Input: `5`
+- Output: `120`
+
+🎯 **Learning Outcome:** Understood how recursion works and how a function calls itself to solve a mathematical problem.
+
+#Python #CodeChef #Recursion #Factorial #ProblemSolving #CodingPractice
