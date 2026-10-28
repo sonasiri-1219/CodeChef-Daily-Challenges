@@ -365,3 +365,29 @@ DAY-19:
 🎯 **Learning Outcome:** Understood how recursion works and how a function calls itself to solve a mathematical problem.
 
 #Python #CodeChef #Recursion #Factorial #ProblemSolving #CodingPractice
+
+
+DAY-20:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate the Remaining Requirement**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take three integers `x`, `y`, and `z`.
+- Calculate `y // x` using integer division.
+- Subtract the result from `z`.
+- Use `max(0, total)` to ensure the answer is never negative.
+- Print the final result.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Integer division (`//`)
+- Built-in `max()` function
+- Arithmetic operations
+
+🎯 **Learning Outcome:** Practiced integer division, conditional calculations, and handling negative results using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
