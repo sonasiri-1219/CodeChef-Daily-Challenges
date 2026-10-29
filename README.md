@@ -391,3 +391,28 @@ DAY-20:
 🎯 **Learning Outcome:** Practiced integer division, conditional calculations, and handling negative results using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+
+DAY-21:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate the Minimum Number of Groups**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `x` and `y`.
+- Calculate the difference using `rr = y - x`.
+- Divide the difference by `8` to find the number of complete groups.
+- If a remainder exists, add `1` to include the extra group.
+- Print the final answer.
+
+💻 **Concepts Used:**
+- `while` loop
+- User input using `map()`
+- Integer division and modulo (`%`)
+- Conditional statements
+- Basic mathematical logic
+
+🎯 **Learning Outcome:** Practiced calculating the minimum number of groups required using division and remainder logic.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
