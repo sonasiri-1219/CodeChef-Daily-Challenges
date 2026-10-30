@@ -416,3 +416,33 @@ DAY-21:
 🎯 **Learning Outcome:** Practiced calculating the minimum number of groups required using division and remainder logic.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+
+DAY-22:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: DNA Complement / DNA String Transformation**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, read the string length `n` and DNA string `s`.
+- Initialize an empty string `res`.
+- Iterate through each character in the DNA string.
+- Replace each nucleotide with its complementary nucleotide:
+  - `A → T`
+  - `T → A`
+  - `C → G`
+  - `G → C`
+- Print the transformed DNA string.
+
+💻 **Concepts Used:**
+- `for` loop
+- String manipulation
+- Conditional statements (`if`)
+- Character mapping
+- String concatenation
+
+🎯 **Learning Outcome:** Practiced string traversal and character replacement using conditional statements in Python.
+
+#Python #CodeChef #DNASequence #StringManipulation #ProblemSolving #CodingPractice
