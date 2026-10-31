@@ -446,3 +446,30 @@ DAY-22:
 🎯 **Learning Outcome:** Practiced string traversal and character replacement using conditional statements in Python.
 
 #Python #CodeChef #DNASequence #StringManipulation #ProblemSolving #CodingPractice
+
+
+DAY-23:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate the Maximum Number of Items**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take three integers `n`, `x`, and `k`.
+- Check the following conditions:
+  1. If `x > k`, print `0`.
+  2. If `n * x < k`, print `n`.
+  3. Otherwise, print `k // x`.
+- Use conditional statements to determine the final answer.
+
+💻 **Concepts Used:**
+- `for` loop
+- `if-elif-else` conditions
+- Integer division (`//`)
+- Comparison operators
+- Mathematical logic
+
+🎯 **Learning Outcome:** Practiced conditional problem-solving, integer division, and handling different input scenarios using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
