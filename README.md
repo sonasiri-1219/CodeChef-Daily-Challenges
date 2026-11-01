@@ -473,3 +473,27 @@ DAY-23:
 🎯 **Learning Outcome:** Practiced conditional problem-solving, integer division, and handling different input scenarios using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+DAY-24:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Check Whether the Quotient Is Even or Odd**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `n` and `m`.
+- Calculate the quotient using `d = n / m`.
+- Check whether the quotient is divisible by 2.
+- If `d % 2 == 0`, print `Yes`; otherwise, print `No`.
+
+💻 **Concepts Used:**
+- `for` loop
+- User input using `map()`
+- Division operator (`/`)
+- Modulus operator (`%`)
+- Conditional statements
+
+🎯 **Learning Outcome:** Practiced division, modulus operations, and conditional checking using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
