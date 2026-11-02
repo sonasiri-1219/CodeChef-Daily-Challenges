@@ -495,5 +495,43 @@ DAY-24:
 - Conditional statements
 
 🎯 **Learning Outcome:** Practiced division, modulus operations, and conditional checking using Python.
+#Python #CodeChef #ProblemSolving #CodingPractice
+
+DAY-25:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Find the Integer Square Root of a Number**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, read an integer `n`.
+- Calculate the square root using `n ** 0.5`.
+- Convert the result into an integer using `int()`.
+- Print the final result.
+
+💻 **Concepts Used:**
+- `for` loop
+- Mathematical operations
+- Exponentiation operator (`**`)
+- Type conversion using `int()`
+
+**Example:**
+
+Input:
+```text
+3
+100
+25
+50
+```
+
+Output:
+```text
+10
+5
+7
+```
+
+🎯 **Learning Outcome:** Practiced calculating square roots and converting floating-point values into integers using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
