@@ -535,3 +535,32 @@ Output:
 🎯 **Learning Outcome:** Practiced calculating square roots and converting floating-point values into integers using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+DAY-26:
+
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate Total Time Including Breaks**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take three integers `x`, `y`, and `z`.
+- Calculate the total playing time using `x * y`.
+- Calculate the number of breaks using `(x - 1) // 3`.
+- Multiply the number of breaks by the break duration `z`.
+- Add playing time and break time to get the total time.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Integer division (`//`)
+- Arithmetic operations
+- Variables and calculations
+
+**Formula:**
+
+`Total Time = (x * y) + (((x - 1) // 3) * z)`
+
+🎯 **Learning Outcome:** Practiced mathematical calculations, integer division, and implementing problem-solving logic using Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
