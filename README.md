@@ -564,3 +564,32 @@ DAY-26:
 🎯 **Learning Outcome:** Practiced mathematical calculations, integer division, and implementing problem-solving logic using Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+DAY-27:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Find the Remaining Value**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `a` and `b`.
+- Initialize `c = 21`.
+- Calculate the remaining value using `res = c - (a + b)`.
+- Check whether the result is between `1` and `10` (inclusive).
+- If the condition is satisfied, print `res`; otherwise, print `-1`.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Arithmetic operations
+- Conditional statements
+- Comparison operators
+- Chained comparisons (`1 <= res <= 10`)
+
+🎯 **Learning Outcome:** Practiced conditional checking, arithmetic calculations, and Python chained comparison operators.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
+
+
+
+DAY-
