@@ -592,4 +592,31 @@ DAY-27:
 
 
 
-DAY-
+DAY-28:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Find the Minimum Number of Bags**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take `n`, `k`, and `m`.
+- Calculate the maximum candies that one bag can hold:
+  `k * m`
+- Calculate the minimum number of bags using ceiling division:
+  `(n + res - 1) // res`
+- Print the required number of bags.
+
+💻 **Concepts Used:**
+- `for` loop
+- Multiple inputs using `map()`
+- Integer division (`//`)
+- Ceiling division
+- Basic mathematical logic
+
+📌 **Formula:**
+
+`Bags = (n + (k × m) - 1) // (k × m)`
+
+🎯 **Learning Outcome:** Practiced ceiling division and learned how to calculate the minimum number of containers required to hold a given quantity.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
