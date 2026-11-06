@@ -620,3 +620,47 @@ DAY-28:
 🎯 **Learning Outcome:** Practiced ceiling division and learned how to calculate the minimum number of containers required to hold a given quantity.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+DAY-29:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Calculate Using Quotient and Remainder**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `x` and `y`.
+- Calculate the remainder using `x % y`.
+- Calculate the quotient using `x // y`.
+- Add both values and print the result.
+
+💻 **Concepts Used:**
+- `for` loop
+- Integer division (`//`)
+- Modulus operator (`%`)
+- Arithmetic operations
+- Multiple test cases
+
+**Formula:**
+
+`Result = (x % y) + (x // y)`
+
+**Example:**
+
+Input:
+```text
+3
+4 1
+4 2
+10 3
+```
+
+Output:
+```text
+4
+2
+4
+```
+
+🎯 **Learning Outcome:** Practiced understanding quotient and remainder operations in Python.
+
+#Python #CodeChef #ProblemSolving #CodingPractice
