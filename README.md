@@ -664,3 +664,32 @@ Output:
 🎯 **Learning Outcome:** Practiced understanding quotient and remainder operations in Python.
 
 #Python #CodeChef #ProblemSolving #CodingPractice
+
+DAY-30:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Find the Maximum Difference**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take four integers `x1`, `x2`, `y1`, and `y2`.
+- Calculate the absolute differences:
+  - `|x1 - y1|`
+  - `|x2 - y2|`
+- Use `max()` to find the larger difference.
+- Print the result.
+
+💻 **Concepts Used:**
+- `for` loop
+- `map()` for multiple inputs
+- `abs()` for absolute difference
+- `max()` to find the largest value
+- Basic mathematical logic
+
+**Formula:**
+
+`Result = max(|x1 - y1|, |x2 - y2|)`
+
+🎯 **Learning Outcome:** Practiced using `abs()` and `max()` together to solve distance/difference-based problems efficiently.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
