@@ -693,3 +693,34 @@ DAY-30:
 🎯 **Learning Outcome:** Practiced using `abs()` and `max()` together to solve distance/difference-based problems efficiently.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
+Day-31:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Find the Quotient Using Integer Division**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take two integers `x` and `y`.
+- Use the floor division operator `//` to calculate the quotient.
+- Print the result.
+
+💻 **Concepts Used:**
+- `for` loop
+- `map()` for multiple inputs
+- Integer/Floor division (`//`)
+- Basic arithmetic operations
+
+**Formula:**
+
+`Result = x // y`
+
+**Example:**
+
+For `x = 10` and `y = 3`:
+
+`10 // 3 = 3`
+
+🎯 **Learning Outcome:** Practiced integer division in Python and understood how to obtain the whole-number quotient from two integers.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #Programming
