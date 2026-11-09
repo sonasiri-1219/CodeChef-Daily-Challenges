@@ -724,3 +724,4 @@ For `x = 10` and `y = 3`:
 🎯 **Learning Outcome:** Practiced integer division in Python and understood how to obtain the whole-number quotient from two integers.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
+
