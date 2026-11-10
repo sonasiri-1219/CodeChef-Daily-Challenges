@@ -725,3 +725,50 @@ For `x = 10` and `y = 3`:
 
 #Python #CodeChef #ProblemSolving #CodingPractice #Programming
 
+DAY-32:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Check Whether B Can Be Reached from A**
+
+📝 **Approach:**
+- Read the number of test cases `T`.
+- For each test case, take `A`, `B`, `X`, and `Y`.
+- If `B > A`, calculate the required increase `B - A`.
+  - If it is within `X`, print `YES`.
+  - Otherwise, print `NO`.
+- If `B < A`, calculate the required decrease `A - B`.
+  - If it is within `Y`, print `YES`.
+  - Otherwise, print `NO`.
+- If `A == B`, no change is needed, so print `YES`.
+
+💻 **Concepts Used:**
+- `if-elif-else`
+- Comparison operators
+- Absolute difference
+- Multiple test cases
+- Conditional problem-solving
+
+**Logic:**
+
+```python
+if B > A:
+    if B - A <= X:
+        print("YES")
+    else:
+        print("NO")
+elif B < A:
+    if A - B <= Y:
+        print("YES")
+    else:
+        print("NO")
+else:
+    print("YES")
+```
+
+🎯 **Learning Outcome:** Practiced handling different cases based on whether a value needs to increase, decrease, or remain unchanged.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #CompetitiveProgramming
+
+
+
+DA
