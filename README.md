@@ -771,4 +771,27 @@ else:
 
 
 
-DA
+DAY-33:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Check Whether W Can Be Formed**
+
+📝 **Approach:**
+- Read the number of test cases `t`.
+- For each test case, take four integers `W`, `X`, `Y`, and `Z`.
+- Check whether `W` is equal to:
+  - Any one of `X`, `Y`, or `Z`
+  - The sum of any two values: `X + Y`, `Y + Z`, or `Z + X`
+  - The sum of all three values: `X + Y + Z`
+- If any condition is true, print `YES`; otherwise, print `NO`.
+
+💻 **Concepts Used:**
+- `for` loop
+- `if-else` conditions
+- Logical OR (`or`)
+- Addition
+- Multiple test cases
+
+🎯 **Learning Outcome:** Practiced checking multiple possible combinations using conditional statements and logical operators.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #CompetitiveProgramming
