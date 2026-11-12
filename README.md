@@ -795,3 +795,30 @@ DAY-33:
 🎯 **Learning Outcome:** Practiced checking multiple possible combinations using conditional statements and logical operators.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #CompetitiveProgramming
+
+
+DAY-34:
+### 🚀 CodeChef Problem Solving – Python
+
+**Problem: Minimum Number of Changes Required**
+
+📝 **Approach:**
+- Read the number of test cases using `int(input())`.
+- For each test case, take four integers `s`, `x`, `y`, and `z`.
+- Calculate the remaining capacity after removing `x` and `y`:
+  `n = s - x - y`
+- Check the following conditions:
+  1. If `n >= z`, print `0` (no changes required).
+  2. Otherwise, if `s - min(x, y) >= z`, print `1` (one change required).
+  3. Otherwise, print `2` (two changes required).
+
+💻 **Concepts Used:**
+- `for` loop
+- Conditional statements (`if-elif-else`)
+- `min()` built-in function
+- Arithmetic operations
+- Logical thinking
+
+🎯 **Learning Outcome:** Practiced conditional problem-solving, remaining capacity calculations, and using the `min()` function to find an optimal solution.
+
+#Python #CodeChef #ProblemSolving #CodingPractice #CompetitiveProgramming
