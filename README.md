@@ -822,3 +822,45 @@ DAY-34:
 🎯 **Learning Outcome:** Practiced conditional problem-solving, remaining capacity calculations, and using the `min()` function to find an optimal solution.
 
 #Python #CodeChef #ProblemSolving #CodingPractice #CompetitiveProgramming
+
+DAY-35:
+# Episode Duration Calculation
+
+## Problem
+Calculate the total duration of `n` episodes where:
+- Odd-indexed episodes contribute `b`.
+- Even-indexed episodes contribute `a + b`.
+
+## Approach
+- `n % 2` gives `1` when there is an extra odd episode.
+- `n // 2` gives the number of pairs.
+- Each pair contributes `a + b`.
+- Combine both parts using:
+
+```python
+b * (n % 2) + (a + b) * (n // 2)
+```
+
+## Python Code
+
+```python
+t = int(input())
+
+for i in range(t):
+    n, a, b = map(int, input().split())
+    print(b * (n % 2) + (a + b) * (n // 2))
+```
+
+## Concepts Used
+- Integer division `//`
+- Modulo `%`
+- Arithmetic expressions
+- For loop
+- Multiple input handling
+
+## Complexity
+- **Time:** O(t)
+- **Space:** O(1)
+
+## Learning
+This problem is a good example of using `//` and `%` together to handle pairs and an extra element efficiently.
