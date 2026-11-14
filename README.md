@@ -864,3 +864,46 @@ for i in range(t):
 
 ## Learning
 This problem is a good example of using `//` and `%` together to handle pairs and an extra element efficiently.
+
+DAY-36:
+# Minimum Number of Coins
+
+### Problem
+Chef has unlimited coins of denominations **₹5 and ₹10**. The goal is to pay exactly `X` rupees using the minimum number of coins.
+
+### Approach
+
+1. Check whether `X` is divisible by `5`.
+2. If `X % 5 != 0`, it is impossible to form the amount, so print `-1`.
+3. Otherwise, use as many ₹10 coins as possible.
+4. The minimum number of coins is calculated using:
+
+```python
+(x + 5) // 10
+```
+
+### Python Solution
+
+```python
+t = int(input())
+
+for i in range(t):
+    x = int(input())
+
+    if x % 5 != 0:
+        print(-1)
+    else:
+        print((x + 5) // 10)
+```
+
+### Example
+
+For `X = 15`:
+
+- ₹10 + ₹5
+- Total coins = `2`
+
+So the answer is `2`.
+
+**Time Complexity:** `O(T)`  
+**Space Complexity:** `O(1)`
