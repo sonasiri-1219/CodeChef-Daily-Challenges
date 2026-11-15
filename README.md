@@ -907,3 +907,22 @@ So the answer is `2`.
 
 **Time Complexity:** `O(T)`  
 **Space Complexity:** `O(1)`
+
+DAY-37:
+### Logic
+
+- Calculate required groups using `n // 100`.
+- If there is a remainder, add one more group.
+- Subtract the available groups `x`.
+- Use `max(0, ...)` so the answer cannot be negative.
+
+```python
+a = (n // 100) + (1 if n % 100 != 0 else 0)
+b = max(0, a - x)
+```
+
+**Time Complexity:** O(T)  
+**Space Complexity:** O(1)
+
+
+
