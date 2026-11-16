@@ -924,5 +924,33 @@ b = max(0, a - x)
 **Time Complexity:** O(T)  
 **Space Complexity:** O(1)
 
+DAY-37:
+🚀 **Python Coding Practice – Counting Numbers in a Range**
+
+Today, I solved a Python problem that focuses on counting elements within a given range.
+
+**Problem:** Given a list of integers, count how many numbers fall between 10 and 60 (inclusive).
+
+**Approach:**
+- Read the number of test cases.
+- Iterate through each list element.
+- Check whether the element satisfies `10 <= num <= 60`.
+- Increment the counter whenever the condition is true.
+- Print the final count.
+
+**Concepts Practiced:**
+- Python Lists
+- For Loops
+- If Conditions
+- Comparison Operators
+- Counter Variables
+
+**Time Complexity:** O(N) per test case.
+
+**Space Complexity:** O(N) for storing the input list.
+
+Small problems, consistent practice, and strong logic-building! 💻
+
+#Python #CodingPractice #ProblemSolving #100DaysOfCode #CodeChef #Programming
 
 
