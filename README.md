@@ -954,3 +954,18 @@ Small problems, consistent practice, and strong logic-building! 💻
 #Python #CodingPractice #ProblemSolving #100DaysOfCode #CodeChef #Programming
 
 
+DAY-38:
+## Cup Finals – Python
+
+**Problem:**  
+Check whether the skill difference between two teams is less than or equal to `D`.
+
+**Approach:**  
+Calculate `abs(X - Y)`.  
+- If `abs(X - Y) <= D` → print `YES`
+- Otherwise → print `NO`
+
+**Time Complexity:** `O(T)`  
+**Space Complexity:** `O(1)`
+
+**Concepts:** `abs()`, if-else, comparison operators.
