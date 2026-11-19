@@ -969,3 +969,25 @@ Calculate `abs(X - Y)`.
 **Space Complexity:** `O(1)`
 
 **Concepts:** `abs()`, if-else, comparison operators.
+
+DAY-39:
+### Problem Explanation
+
+Given two numbers `X` and `Y`, calculate the number of groups of 10 required for each number and print the absolute difference between them.
+
+### Approach
+- If a number is divisible by 10, use `number // 10`.
+- Otherwise, add 1 to `number // 10` to account for the remaining items.
+- Calculate the absolute difference using `abs()`.
+
+### Example
+For `X = 21` and `Y = 35`:
+- `21` requires `3` groups.
+- `35` requires `4` groups.
+- Difference = `|3 - 4| = 1`
+
+### Concepts Used
+- `//` Integer Division
+- `%` Modulo
+- `abs()` Absolute Value
+- Conditional Statements
