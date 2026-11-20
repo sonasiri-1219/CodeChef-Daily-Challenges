@@ -991,3 +991,42 @@ For `X = 21` and `Y = 35`:
 - `%` Modulo
 - `abs()` Absolute Value
 - Conditional Statements
+
+DAY-40:
+### Comparing Ratios – Python
+
+**Problem:**  
+Given Alice's values `A, B` and Bob's values `X, Y`, compare `A/B` with `X/Y`.
+
+**Logic:**
+- If `A/B == X/Y` → Print `Equal`
+- If `A/B > X/Y` → Print `Alice`
+- Otherwise → Print `Bob`
+
+**Python Solution:**
+```python
+t = int(input())
+
+for i in range(t):
+    a, x, b, y = map(int, input().split())
+
+    res1 = a / b
+    res2 = x / y
+
+    if res1 == res2:
+        print("Equal")
+    elif res1 > res2:
+        print("Alice")
+    else:
+        print("Bob")
+```
+
+**Concepts Used:**
+- Input handling
+- Arithmetic operations
+- Floating-point division
+- Conditional statements
+- Comparison operators
+
+**Time Complexity:** `O(T)`  
+**Space Complexity:** `O(1)`
