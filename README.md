@@ -1030,3 +1030,47 @@ for i in range(t):
 
 **Time Complexity:** `O(T)`  
 **Space Complexity:** `O(1)`
+
+DAY-41:
+# Divisibility Check Using Modulo
+
+### Problem
+Given an integer `n`:
+- If `n` is divisible by 4, print `n + 1`.
+- Otherwise, print `n - 1`.
+
+### Approach
+1. Read the integer `n`.
+2. Check `n % 4 == 0`.
+3. If true, print `n + 1`.
+4. Otherwise, print `n - 1`.
+
+### Python Code
+
+```python
+n = int(input())
+
+if n % 4 == 0:
+    print(n + 1)
+else:
+    print(n - 1)
+```
+
+### Key Concept
+- `%` (modulo) gives the remainder after division.
+- If the remainder is `0`, the number is divisible by 4.
+
+### Example
+
+**Input:**
+```text
+8
+```
+
+**Output:**
+```text
+9
+```
+
+**Time Complexity:** `O(1)`  
+**Space Complexity:** `O(1)`
