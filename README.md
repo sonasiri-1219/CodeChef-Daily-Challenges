@@ -1074,3 +1074,34 @@ else:
 
 **Time Complexity:** `O(1)`  
 **Space Complexity:** `O(1)`
+
+DAY-42:
+## 📖 Theory
+
+The problem requires us to calculate the outcome of **two possible choices** and determine which choice produces the maximum result.
+
+### Approach
+
+For every test case:
+
+1. Read the values `x` and `y`.
+2. Calculate the result for the first choice.
+3. Calculate the result for the second choice.
+4. Compare both calculated results.
+5. Print the maximum result.
+
+### Concepts Used
+
+- Python input and output
+- Arithmetic operations
+- `for` loop for multiple test cases
+- `if-else` conditional statements
+- Comparison operators
+- Basic mathematical problem solving
+
+### Complexity
+
+- **Time Complexity:** `O(t)`
+- **Space Complexity:** `O(1)`
+
+This problem is useful for practicing basic **conditional logic and arithmetic calculations in Python**.
