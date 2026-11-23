@@ -1105,3 +1105,35 @@ For every test case:
 - **Space Complexity:** `O(1)`
 
 This problem is useful for practicing basic **conditional logic and arithmetic calculations in Python**.
+
+DAY-43:
+## Find the Second Smallest Number
+
+This Python program finds the **second smallest number** from the given input values.
+
+### Approach
+1. Read the number of test cases.
+2. Read the numbers using `map()`.
+3. Sort the numbers using `sorted()`.
+4. Print the element at index `1`.
+
+### Concepts Used
+- `map()`
+- `sorted()`
+- List indexing
+- Loops
+- User input
+
+### Code
+```python
+t = int(input())
+
+for i in range(t):
+    a = map(int, input().split())
+    b = sorted(a)
+    print(b[1])
+```
+
+**Time Complexity:** O(n log n) due to sorting.
+
+**Space Complexity:** O(n) for the sorted list.
