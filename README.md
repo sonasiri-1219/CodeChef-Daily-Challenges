@@ -1137,3 +1137,42 @@ for i in range(t):
 **Time Complexity:** O(n log n) due to sorting.
 
 **Space Complexity:** O(n) for the sorted list.
+
+DAY-44:
+## 🐍 Python – Score Validation
+
+### Problem Approach
+This program determines whether a candidate **passes or fails** based on the calculated score.
+
+### Logic
+1. Read `n`, `x`, and `p`.
+2. Calculate the score for the required conditions.
+3. Add the scores to get the final score.
+4. Compare the final score with `p`.
+5. If `score >= p`, print `PASS`; otherwise, print `FAIL`.
+
+### Concepts Used
+- `for` loop
+- `input()` and `map()`
+- Arithmetic operations
+- Conditional statements (`if-else`)
+- Basic problem-solving
+
+### Complexity
+- **Time:** O(T)
+- **Space:** O(1)
+
+### Sample Code
+```python
+for i in range(int(input())):
+    n, x, p = map(int, input().split())
+
+    a = (n - x) * -1
+    b = x * 3
+    c = a + b
+
+    if c >= p:
+        print("PASS")
+    else:
+        print("FAIL")
+```
