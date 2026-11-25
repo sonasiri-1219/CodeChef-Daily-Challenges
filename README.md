@@ -1176,3 +1176,37 @@ for i in range(int(input())):
     else:
         print("FAIL")
 ```
+DAY-45:
+## 🐍 Angle Validation using Python
+
+### Problem
+Given four angles `a, b, c, d`, check whether opposite angles form a straight angle.
+
+### Logic
+- If `a + c == 180` and `b + d == 180` → print `YES`
+- Otherwise → print `NO`
+
+### Python Code
+
+```python
+t = int(input())
+
+for i in range(t):
+    a, b, c, d = map(int, input().split())
+
+    if a + c == 180 and b + d == 180:
+        print("YES")
+    else:
+        print("NO")
+```
+
+### Concepts Used
+- `input()`
+- `map()`
+- Conditional statements (`if-else`)
+- Logical operator (`and`)
+- Basic geometry logic
+
+### Complexity
+**Time:** O(T)  
+**Space:** O(1)
