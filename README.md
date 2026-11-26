@@ -1210,3 +1210,18 @@ for i in range(t):
 ### Complexity
 **Time:** O(T)  
 **Space:** O(1)
+
+DAY-46:
+## Polybag Calculation 🛍️
+
+**Problem:** Find the minimum number of polybags required when each bag holds 10 items.
+
+**Approach:**
+- Check divisibility using `%`.
+- Use `//` to calculate full bags.
+- Add one extra bag if items remain.
+
+**Concepts:** Python, Loops, If-Else, Modulo, Integer Division.
+
+**Time Complexity:** O(1) per test case.
+**Space Complexity:** O(1).
