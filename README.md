@@ -1225,3 +1225,34 @@ DAY-46:
 
 **Time Complexity:** O(1) per test case.
 **Space Complexity:** O(1).
+
+DAY-47:
+## Python Coding Practice 🐍
+
+### Problem
+For each test case, given an integer `n`, calculate `n × (n - 1)`.
+
+### Example
+For `n = 5`:
+
+```text
+5 × (5 - 1) = 5 × 4 = 20
+```
+
+### Key Concepts
+- `for` loop
+- User input
+- Basic arithmetic
+- Problem-solving
+
+### Complexity
+- **Time:** O(T)
+- **Space:** O(1)
+
+```python
+t = int(input())
+
+for i in range(t):
+    n = int(input())
+    print(n * (n - 1))
+```
