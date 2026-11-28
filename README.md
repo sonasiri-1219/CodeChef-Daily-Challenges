@@ -1256,3 +1256,29 @@ for i in range(t):
     n = int(input())
     print(n * (n - 1))
 ```
+
+DAY-48:
+
+## 🏢 Building Race – Python
+
+### Problem
+Determine whether Chef, Chefina, or both reach the ground floor first.
+
+### Approach
+The time taken is:
+
+- Chef → `A / X`
+- Chefina → `B / Y`
+
+To avoid decimal calculations, compare using cross multiplication:
+
+- `A * Y < B * X` → Chef
+- `A * Y > B * X` → Chefina
+- Otherwise → Both
+
+### Complexity
+- **Time:** O(T)
+- **Space:** O(1)
+
+### Language
+🐍 Python
